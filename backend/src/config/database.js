@@ -1,9 +1,9 @@
 /*
-    Arquivo para condiguração do acesso ao MongoDB
+    Set MongoDB access configuration
 */
 const mongoose = require('mongoose')
 
-// Faz com que o mongoose utilize a biblioteca de Promise do node, pois a do mongoose está depreciada.
+// Set mongoose to use the node promise library, cause mongoose promise library is deprecated
 mongoose.Promise = global.Promise
 
 module.exports = mongoose.connect('mongodb://localhost/todo')
