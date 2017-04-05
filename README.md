@@ -1,4 +1,4 @@
-# todo-app-curso-react
+# Todo app using React
 Practice project developed during react course
 
 ## Getting Started
